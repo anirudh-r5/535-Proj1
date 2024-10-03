@@ -1,5 +1,3 @@
-import time
-
 def taskA_baseline(P):
     for idx, (price, product) in enumerate(P):
         for _, (comp_price, comp_prod) in enumerate(P, start=idx):
