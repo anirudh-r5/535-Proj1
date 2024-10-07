@@ -1,3 +1,4 @@
+# Code Author: Anirudh Ramakrishnan (anirudh.r@csu.fullerton.edu)
 # Input matrix
 A1 = [[1, 0 ,1, 0, 0], [0, 0, 1, 1, 0], [0, 1, 1, 1, 1], [1, 0, 1, 0, 0]]
 
@@ -66,4 +67,4 @@ for nx, ny in neighbors:
     # Check if the new size is the largest landmass
     largest = max(largest, new_land)
 
-print(largest)
+print(f'Largest landmass size: {largest}')
